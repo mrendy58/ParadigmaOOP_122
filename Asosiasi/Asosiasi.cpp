@@ -13,6 +13,8 @@ public:
     ~pasien() {
         cout << "pasien \"" << nama << "\" tidak ada\n ";
     } 
+    void tamabahDokter(dokter*);
+    void cetakDokter();
 };
 
 int main()
